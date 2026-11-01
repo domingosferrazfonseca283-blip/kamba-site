@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://domingosferrazfonseca283-blip.github.io/kamba-site/sitemap.xml
