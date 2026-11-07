@@ -1,0 +1,18 @@
+{
+  "name": "Kamba",
+  "short_name": "Kamba",
+  "description": "Tecnologia que conecta. Inteligência que simplifica.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3efe6",
+  "theme_color": "#0B8F5A",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
