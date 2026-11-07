@@ -746,7 +746,7 @@ boot();
 
   function showList(box) {
     header(box, 'Apoio ao cliente');
-    if (KS.staff) {
+    if (false) {
       var sb = el('button', BTN + 'width:100%;margin-bottom:12px;', 'Painel da equipa de apoio');
       sb.onclick = function () {
         window.open(API + '/apoio#t=' + encodeURIComponent(token), '_blank');
