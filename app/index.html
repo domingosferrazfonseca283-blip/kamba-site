@@ -73,7 +73,7 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const kz = n => new Intl.NumberFormat('pt-AO').format(n || 0) + ' Kz';
 const ST = {open:'Aberto', in_progress:'Em curso', completed:'Concluído', cancelled:'Cancelado', pending:'Pendente', accepted:'Aceite', rejected:'Rejeitada'};
-const CATS = ['Eletricidade','Canalização','Pintura','Limpeza','Informática','Mecânica','Construção','Outros'];
+const CATS = ['Eletricidade', 'Canalização', 'Pintura', 'Limpeza', 'Informática', 'Mecânica', 'Construção', 'Outros', 'Carpintaria', 'Serralharia', 'Jardinagem', 'Cabeleireiro e Beleza', 'Costura e Alfaiataria', 'Ar Condicionado e Refrigeração', 'Eletrodomésticos', 'Informática e Telemóveis', 'Explicações', 'Fotografia e Vídeo', 'Eventos e Animação'];
 let token = localStorage.getItem('kt'), me = null, isAdmin = false;
 let view = {name:'explore'}, lastTab = 'explore';
 
